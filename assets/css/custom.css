@@ -1,0 +1,35 @@
+/*Custom Css*/
+select#products {
+    max-width: 100%;
+    padding: 0.8rem;
+}
+
+#woocommerce-coupon-data ul.wc-tabs li a::before, #woocommerce-product-data ul.wc-tabs li a::before, .woocommerce ul.wc-tabs li a::before{
+            content: "\f480";
+		} 
+
+ div#my_custom_tab_data .form-field {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+			}
+div#my_custom_tab_data .form-field label {
+	margin: 0px 10px;
+	font-weight: 600;
+}
+div#my_custom_tab_data .form-field input {
+    width: 70%;
+}
+p.form-field.colour_field.form-row.colFull.form-row-first input {
+    margin-left: 61px;
+}
+
+div#my_custom_tab_data .form-field .colAll {
+    flex-basis: 50%;
+}
+p.colAll label:first-child {
+    margin-right: 58px !important;
+}
+.form-field:last-child p label {
+    margin-right: 11% !important;
+}
